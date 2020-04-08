@@ -1,0 +1,421 @@
+\documentclass[UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+\title{大学物理（力学，振动与波，相对论）}
+\author{訾宇哲}
+\date{\today}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\section{第一讲\;\;质点运动学}
+\subsection{质点运动的描述}
+
+    1、位置矢量（位矢，矢径）：用来确定某时刻质点位置（用失端表示）的矢量
+
+    \;\;$\vec{r} = \vec{r}(t) = x(t)\vec{i}+y(t)\vec{j}+z(t)\vec{k}$
+
+    \;\;\[\mbox{大小：}\lvert\vec{r}\rvert = \sqrt{x^2+y^2+z^2}\;\;\;\mbox{方向：}cos\alpha = \frac{x}{r}\;\;\;cos\beta = \frac{y}{r}\;\;\;cos\gamma = \frac{z}{r}\]
+
+    2、位移：反应质点位置变化
+
+    \[\Delta \vec{r} = \vec{r}(t + \Delta t) - \vec{r} = (x_2 - x_1)\vec{i} + (y_2-y_1)\vec{j} + (z_2 - z_1)\vec{k}\]
+
+    \[\mbox{大小：}\lvert\Delta\vec{r}\rvert = \sqrt{\Delta x^2 + \Delta y^2 + \Delta z^2}\]
+
+    3、速度：描述质点运动快慢和方向
+
+    \[\mbox{平均速度：}\vec{v} = \frac{\vec{r_2} - \vec{r_1}}{\Delta t}  = \frac{\Delta \vec{r}}{\Delta t}\]
+
+    \[\mbox{（瞬时）速度：}\vec{v} = \lim_{\Delta \rightarrow 0}\frac{\Delta \vec{r}}{\Delta t} = \frac{d\vec{r}}{dt} = \frac{d}{dt}(x\vec{i}+y\vec{i}+z\vec{k}) = \frac{dx}{dt}\vec{i}+\frac{dy}{dt}\vec{j}+\frac{dz}{dt}\vec{k} = \vec{v_x}+\vec{v_y}+\vec{v_z}\]
+
+    \[\mbox{速率：速度的大小（标量）：}v = \lvert\vec{v}\rvert = \lim_{\Delta \rightarrow 0}\frac{\lvert\vec{\Delta t}\rvert}{\Delta t} = \lim_{\Delta \rightarrow 0}\frac{\Delta s}{dt} = \frac{ds}{dt}\]
+
+    4、加速度
+
+    \[\mbox{平均加速度：}\vec{a} = \frac{\vec{\Delta v}}{\Delta t} = \frac{\vec{v_2} - \vec{v_1}}{t_2 - t_1}\]
+
+    \[\mbox{（瞬时）加速度：}\vec{a} = \lim_{\Delta t \rightarrow 0}\frac{\Delta \vec{v}}{\Delta t} = \frac{d\vec{v}}{dt} = \frac{d^2\vec{r}}{dt^2}\]
+
+    \;\;方向：指向轨道凹的一侧
+
+\subsection{极坐标系和自然坐标系}
+\subsubsection{极坐标下的速度，加速度}
+\includegraphics[width=13cm, height=18cm]{D:/University/PHYNOTE/1.png}
+\subsubsection{自然坐标下的速度，加速度}
+\includegraphics[width=13cm, height=10cm]{D:/University/PHYNOTE/2.png}
+\subsection{圆周运动的速度，角速度}
+\includegraphics[width=13cm, height=10cm]{D:/University/PHYNOTE/3.png}
+\subsection{相对运动}
+\includegraphics[width=13cm, height=10cm]{D:/University/PHYNOTE/4.png}
+\newpage
+\section{第二讲\;\;牛顿运动}
+\includegraphics[width=13cm, height=18cm]{D:/University/PHYNOTE/5.png}
+
+\includegraphics[width=13cm, height=18cm]{D:/University/PHYNOTE/6.png}
+\newpage
+\section{第三讲\;\;动量定理\;\;动量守恒定律}
+\subsection{质点动量定理}
+
+    动量：$\vec{P} = m\vec{v}$，单位：$kg\cdot m/s$
+    
+    质点动量定理微分形式：$\vec{F}dt = d\vec{P}$
+
+    质点动量定理积分形式：$\vec{I} = \int_{t_1}^{t_2}\vec{F}dt = \int_{P_1}^{P_2}d\vec{P} = \vec{p_2} - \vec{P_1}$
+
+\subsubsection{质点动量定理}
+
+    $\vec{I} = \vec{P_2} - \vec{P_1}$，过程量等于两状态量之差
+
+    分量形式：$I_i = P_{2i} - P_{1i}\;(i = x, y, z)$，只适用于惯性系
+
+\subsubsection{质点系动量定理}
+
+    质点系内部n个质点，外部m个质点
+
+    第i个质点所受力
+    \[\vec{F_i} = \frac{d\vec{P_i}}{dt} = \sum_{\substack{i\neq j\\j=i}}^{m+n}\vec{F_{ij}}\;\;\;\;\;\vec{F_i} = \vec{F_{i\mbox{外}}}+\vec{F_{i\mbox{内}}}\]
+
+    \[\vec{F_{i\mbox{外}}} = \sum_{\substack{i\neq j\\j=n+i}}^{m+n}\vec{F_{ij}}\;\;\;\;\;\vec{F_i} = \frac{d\vec{P_i}}{dt}\;\;\;\;\;\sum_{i+1}^n = \frac{d}{dt}\sum_{i+1}^n\vec{P_i}\]
+    
+    系统内力之和为零，质点系总动量\;\;$P = \sum_{i=1}^n\vec{P_i}$
+
+    质点系动量定理：$\vec{F_{\mbox{外}}} = \frac{d\vec{P}}{dt}$\;\;\;系统受到的合外力等于系统动量对时间的变化率
+
+    说明：内力能使系统内各个质点的动量发生改变（相互交换动量），但它们对系统的总动量没有任何影响
+
+\subsubsection{动量守恒定律}
+
+    由质点系动量定理\;\;\;$\vec{F_{\mbox{外}}} = \frac{d\vec{P}}{dt}$，当系统所受的合外力为0，即$\vec{F_{\mbox{外}}} = 0$
+
+    \[\frac{d\vec{P}}{dt} = 0\;\;\;\;\;\vec{P} = \sum_i\vec{P_i} = \sum_im\vec{v_i}\;\;\mbox{常矢量}\]
+
+    动量守恒定律：当一个质点系受到的合外力为零时，该系统的总动量保持不变
+
+\subsection{质心，质心运动定理}
+
+\subsubsection{质心}
+
+    质心：\[\vec{r_c} = \frac{\sum_{i=1}^n m_i\vec{F_i}}{m}\;\;(m = \sum_i m_i)\]
+
+    质心坐标：\[x_c = \frac{\sum_i m_i x_i}{m}\;\;\;y_c = \frac{\sum_im_iy_i}{m}\;\;\;z_c = \frac{\sum_im_ix_i}{m}\]
+
+    质量连续分布的物体：\[r_c = \frac{\int\vec{r}dm}{m}\;\;\;x_c = \frac{\int xdm}{m}\;\;\;y_c = \frac{\int ydm}{dm}\;\;\;z_c = \frac{\int zdm}{m}\]
+
+    说明：质心的定义与坐标原点的选择有关
+
+\subsubsection{质心运动定理}
+
+    由质心定义：$\vec{r_c} = \frac{\sum m_i\vec r_i}{m}$
+    
+    质心速度：$\vec{v_c} = \frac{d\vec{r_c}}{dt} = \frac{\sum m_i\vec{v_i}}{m}$
+
+    质心加速度：$\vec{a_c} = \frac{d^2\vec{r_c}}{dt^2} = \frac{\sum_i m_i\vec{a_i}}{m}$
+
+    质点系的动量是质点系内各质点动量的矢量和
+    \[\vec{P} = \sum_i m_i\vec{v_i} = m\frac{\sum_i m_i\vec{v_i}}{m} = mv_c\]
+
+    \[\vec{P} = m\vec{v_c}\;\;\;\;\;\vec{F_{\mbox{外}}} = \frac{d\vec{P}}{t} = m\frac{d\vec{v_c}}{dt} = m\vec{a_c}\;\;\;\;\;\vec{F_{\mbox{外}}} = m\vec{a_c}\mbox{——质心运动定理}\]
+
+    当物体只做平动时，质心运动代表整个物体的运动
+
+\subsection{碰撞}
+
+\subsubsection{碰撞}
+
+    特点：相互作用时间短；冲击力大$\rightarrow$其它力相对很小$\rightarrow$只有内力$\rightarrow$整个系统动量守恒
+
+    两球对心碰撞：$m_1\vec{v_{10}} + m_2\vec{v_{20}} = m_1\vec{v_1} + m_2\vec{v_2}$
+
+    引入“恢复系数”：\[e = \lvert \frac{\vec{v_2} - \vec{v_1}}{\vec{v_{10}} - \vec{v_{20}}} \rvert\]
+
+    可得\[v_1 = v_{10} - \frac{(1+e)m_2(v_{10} - v_{20})}{m_1 + m_2}\;\;\;v_2 = v_{20} + \frac{(1+e)m_1(v_{10} - v_{20})}{m_1 + m_2}\]
+
+    完全弹性碰撞：$e = 1$；
+
+    完全非弹性碰撞：$e = 0$；损失的机械能$\rightarrow$体系的内能
+
+    非弹性碰撞：$0<e<1$；
+
+\newpage
+\section{第四讲\;\;}
+\subsection{功\;\;功能定理}
+\subsection{保守力与非保守力}
+\subsection{势能\;\;势能曲线}
+\subsection{功能原理以及机械能守恒定律}
+\newpage
+\section{第五讲\;\;角动量\;\;角动量守恒定律}
+\subsection{质点的角动量}
+\subsubsection{质点角动量的定义}
+
+    质点的角动量是对某一固定参考点而言，t时刻质点对参考点O的角动量定义为：
+    \[\vec{L} = \vec{r}\times\vec{P} = \vec{r}\times m\vec{v}\]
+
+    角动量的大小：$L = rmvsin\phi$，单位：$kg\cdot m^2/s$或$J\cdots$
+
+    方向：服从右手螺旋法则，垂直于$\vec{r},\vec{P}$所在的平面
+
+    说明：
+
+    （1）角动量是瞬时量
+
+    （2）质点动量为零，角动量必为零；动量不为零，角动量也可能为零
+
+    （3）匀速率圆周运动时，相对于圆心的角动量为$L = Rmv$；动量改变，角动量恒定
+
+    （4）统一运动质点，参考点选择不同，角动量不同
+
+\subsection{质点角动量定理及守恒定律}
+\subsubsection{质点角动量定理}
+
+    质点对参考点O的角动量：$\vec{L} = \vec{r}\times\vec{P}$
+
+    上式取时间的微分：
+    
+    $\frac{d\vec{L}}{dt} = \frac{d}{dt}(\vec{r}\times\vec{P}) = \frac{d\vec{r}}{dt}\times\vec{P} + \vec{r}\times\frac{d\vec{p}}{dt} = \vec{v}\times m\vec{v} + \vec{r}\times\vec{F} = \vec{r}\times\vec{F}$
+
+    质点角动量定理：\[\frac{d\vec{L}}{dt} = \vec{M}\]
+
+    质点角动量定理变形为$\vec{M}dt = d\vec{L}$，对$t_1\rightarrow t_2$时间过程，有
+    \[\int_{t_1}^{t_2}\vec{M}\cdot dt = \vec{L_2} - \vec{L_1}\]
+
+    质点对固定点角动量的增量等于该质点所受合力的冲量矩
+
+\subsubsection{力对固定轴的力矩}
+
+    （1）角动量和力矩均与参考点有关，角动量也称动量矩，力矩也叫角力
+
+    （2）角动量的分量形式也成立：
+    
+    $\vec{L} = \vec{r}\times\vec{P} = L_x\vec{i} + L_y\vec{j} + L_Z\vec{k}\;\;\;\vec{M} = \vec{r}\times\vec{F} = M_x\vec{i} + M_y\vec{j} + M_z\vec{k}$
+
+    即：$\frac{dL_x}{dt} = M_x\;\;\;\frac{dL_y}{dt} = M_y\;\;\;\frac{dL_z}{dt} = M_z$
+
+    （3）对轴的角动量和对轴的力矩，再具体的坐标系中，角动量（或力矩）在某一坐标轴上的分量，称质点对该轴的角动量（或力矩）
+
+\subsubsection{质点角动量守恒定律}
+
+    若对某一固定点，质点所受和力矩为零，则质点对该固定点的角动量矢量保持不变————质点角动量守恒定律
+
+    （1）$\vec{M} = 0$的条件是：$\vec{F} = 0\;\;\;\;\;\vec{F}$过固定点：有心力
+
+    （2）动量守恒，角动量一定守恒；动量不守恒，角动量也可能守恒
+
+    （3）角动量的分量形式亦成立
+
+\subsection{质点系的角动量定理及其守恒定律}
+\subsubsection{质点系的角动量定理}
+
+    质点系中各个质点对某一固定点的角动量的矢量和，即为该质点系对该固定点的角动量\[\vec{L} = \sum_i\vec{L_i} = \sum_i\vec{r_i}\times\vec{p_i}\]
+
+    由质点角动量定理可知\[\frac{d\vec{L_i}}{dt} = \vec{M_i} = \vec{r_i}\times(\vec{F_i}+\sum_{j\neq i}\vec{f_{ij}})\]即\[\frac{d\vec{L}}{dt} = \sum_i\frac{d\vec{L_i}}{dt} = \sum_i\vec{r_i}\times\vec{F_i} + \sum_i(\vec{r_i}\times\sum_{i\neq j}\vec{f_{ij}}) = \vec{M_{\mbox{外}}} + \vec{M_{\mbox{内}}}\]
+
+    又\[\vec{r}\times\vec{f_{if}} + \vec{r_j}\times\vec{f_{ji}} = (\vec{r_i} - \vec{r_j})\times\vec{f_{ij}} = 0\;\;\;\;\;\mbox{即}\;\vec{M_{\mbox{内}}} = 0\]
+
+    于是\[\vec{M_{\mbox{外}}} = \frac{d\vec{L}}{dt}\]
+
+    一个质点系所受的合外力矩等于该质点系的角动量对时间的变化率————质点系的角动量定理
+
+\subsubsection{质点系的角动量守恒定律}
+
+    （1）质点系的角动量定理也是适用于惯性系
+    （2）外力矩和角动量都是相对于惯性系中的同一固定点说的
+    （3）当合外力矩为零时，质点的角动量不随时间变化————质点系的角动量守恒定律
+    （4）内力矩不影响质点系总角动量，但影响质点系中某些质点的角动量
+
+\subsection{刚体模型及其运动}
+\subsubsection{刚体的定义及特点}
+
+    1、刚体的定义：在力的作用下，形状与体积都不变的物体称为刚体
+
+    2、刚体的特点：刚体是特殊的质点系，组成刚体的各个质元之间的相对位置保持不变，刚体是理想化模型，物体的形变远小于其本身的限度，在描述其运动时可抽象为刚体
+
+\subsubsection{刚体的运动}
+
+    1、平动：刚体内任意两质元连线在运动过程中始终保持平行
+
+    2、平动的特点：运动学范畴内，平动的刚体可视为质点，可用质点运动学描述其运动，平动刚体的运动轨迹可以是三维的
+
+    3、转动：刚体的各质元都绕某一直线（转轴）做圆周运动
+
+    \begin{tabular}{|c|c|}% 通过添加 | 来表示是否需要绘制竖线
+        \hline  % 在表格最上方绘制横线
+        转轴固定&转轴方向不固定）\\
+        \hline  %在第一行和第二行之间绘制横线
+        定轴转动（纯转动&定点转动（轴上某点静止）\\
+        \hline % 在表格最下方绘制横线
+    \end{tabular}
+
+    4、定轴转动特点：定轴转动的刚体中各质元在各自的转动平面内绕轴作不同半径的圆周运动
+
+    5、一般运动：一般运动 = 随基点的平动 + 绕基点的定轴转动，转动大小与基点（质心）的选取无关
+
+\subsection{刚体定轴转动的运动描述}
+\subsubsection{刚体定轴转动的描述}
+
+    定轴转动的刚体中任意质元都在各自的转动平面内，以一定的转动半径做圆周运动
+
+\subsubsection{定轴转动的角量描述}
+
+    1、角位置：$\theta = \theta (t)$，沿逆（顺）时针方向转动\;\;\;$\theta >(<) 0$
+
+    2、角位移：$\Delta\theta = \theta(t + \Delta t) - \theta(t)\;\;\;\Delta\theta$的方向：由右手螺旋确定
+
+    3、角速度：$\omega = \frac{d\theta}{dt}\;\;$角速度的方向可用正负来表示
+
+    4、角加速度：$\beta = \frac{d\omega}{dt}\;\;$反向：越转越快（慢）时，与$\vec{\omega}$同（反）方向
+
+    刚体上所有质元都具有相同的角位移，角速度，角加速度
+
+    定轴转动的描述仅需一维（角）的坐标
+
+    5、匀变速转动：刚体绕定轴转动的角速度为恒量时，刚体做匀速转动，绕定轴转动的角加速度为恒量时，刚体做匀变速运动
+
+    刚体匀变速转动与质点匀变速直线运动公式对比
+
+    \begin{tabular}{|c|c|}% 通过添加 | 来表示是否需要绘制竖线
+        \hline  % 在表格最上方绘制横线
+        质点匀变速直线运动&刚体绕定轴做匀变速转动\\
+        \hline  %在第一行和第二行之间绘制横线
+        $v = v_0 + at$&$\omega = \omega_0 + \beta t$\\
+        \hline % 在表格最下方绘制横线
+        $x = x_0 + v_0t + \frac{1}{2}at^2$&$\theta = \theta_0 + \omega_0t + \frac{1}{2}\beta t^2$\\
+        \hline % 在表格最下方绘制横线
+        $v^2 = v_0^2 + 2a(x - x_0)$&$\omega^2 = \omega_0^2 + 2\beta(\theta - \theta_0)$\\
+        \hline % 在表格最下方绘制横线
+    \end{tabular}
+
+\subsubsection{定轴转动角量和线量大小的关系}
+
+    \[s = R\theta\;\;\;\;\;\Delta s = R\Delta\theta\]
+
+    \[v = \frac{ds}{dt} = R\frac{d\theta}{dt} = R\omega\;\;\;\;\;a_\tau = \frac{dv}{dt} = R\frac{d\omega}{dt} = R\beta\;\;\;\;\;a_n = \frac{v^2}{R} = \frac{(R\omega)^2}{R} = R\omega^2\]
+\subsection{刚体的转动惯量}
+\subsubsection{转动惯量的定义}
+
+    定轴转动的刚体，各质元到转轴距离的平方与质量乘积的总和，称为刚体对该转轴的转动惯量
+
+    质量不连续分布：$J = \sum_i \Delta m_ir_i^2$
+
+    质量连续分布：$J = \int r^2dm$
+
+    转动惯量是标量\;\;\;\;\;[SI]:$kg\cdot m^2$
+
+    转动惯量的意义：反映了刚体转动惯性的大小
+
+\subsubsection{转动惯量的特点}
+
+    与刚体总质量有关，与刚体质量分布有关，与转轴的位置有关
+
+\subsubsection{有关转动惯量的几个定理}
+
+    （1）转动惯量叠加原理：对于多个刚体组成的体系而言，相对某一固定轴的转动惯量等于每个刚体对该轴的转动惯量之和$J_z = J_A + J_B + J_C$
+
+    （2）平行轴定理：如果已知质量为m的刚体绕通过其质心的某一个轴的转动惯量为$J_c$，则它相对于其质心轴平行、且相距为d的另一个轴的转动惯量为$J_z = J_c + md^2$
+
+\subsection{力矩}
+\subsubsection{力对固定点的力矩}
+
+    力$\vec{F}$对参考点0的力矩：\[\vec{M} = \vec{r}\times\vec{F}\]
+
+    大小：$\lvert \vec{r}\times\vec{F}\rvert = Frsin\theta = Fd$
+
+    方向：右手螺旋法则
+
+    说明：
+
+    \;\;\;（1）质点不受力作用，力矩一定为零；力不为零时，力矩可能为零
+
+    \;\;（2）力作用于参考点或其作用线通过参考点时，力对参考点的力矩为零
+
+    \;\;（3）力矩的作用效果是产生相对于参考点O的转动状态
+
+\subsubsection{力对固定轴的力矩}
+
+    力对转轴z的力矩$\vec{M_z} = \vec{r}\times\vec{F_{\bot}}$
+
+    力对轴的力矩的实质是力对O点的力矩在z轴方向上的分量
+
+    对轴力矩大小：$M_z = \pm\lvert\vec{M_z}\rvert = \pm\lvert\vec{r}\times\vec{F_{\bot}}\rvert = \pm F_{\bot}rsin\theta = \pm F_{\bot}d$
+
+    若$\vec{M_z}$沿规定的正方向，取“+”，反之，取“-”
+
+    力矩叠加原理：当几个力矩作用在同一刚体上时，合力矩M时各单个力矩之和
+
+    住：力矩求和只能对同一参考带点（或轴）进行
+
+\subsection{刚体定轴转动定律}
+
+    刚体定轴转动定律：\[M = J\beta\]
+
+    刚体定轴转动的角加速度与它所受合外力矩成正比，与刚体的转动惯量成反比
+
+    说明：
+
+    \;\;\;（1）刚体所受力矩一定的情况下，转动惯量越大，角加速度越小
+
+    \;\;（2）转动惯量是刚体转动惯性大小的量度
+
+\subsection{定轴转动刚体角动量定理及其守恒定律}
+\subsubsection{定轴转动刚体角动量定理}
+
+    绕定轴转动的刚体的角动量：$L_z = J_z\omega$
+
+    定轴转动刚体为质点系，满足质点系的角动量定理：$\vec{M_{\mbox{外}}} = \frac{d\vec{L}}{dt}$
+
+    则有定轴转动角动量定理：\[M_z = \frac{dL_z}{dt} = \frac{d}{dt}(J_z\omega)\]
+
+    定轴转动角动量定理积分形式：\[\int_{t_1}^{t_2}M_zdt = J_z\omega_2 - J_z\omega_1\]
+
+\subsubsection{定轴转动刚体角动量守恒定律}
+
+    刚体绕定轴转动时，如果所受合力矩为零，则刚体沿该轴的角动量守恒，此时，定轴转动刚体匀速转动
+
+    当$M_z = 0$时，$J_z\omega=$恒量（大小不变，正负不变）
+
+    刚体系：$M_z = 0$时，$\int J_{iz}\omega_i = const$
+
+    角动量可在系统内部各刚体间传递，而却保持刚体系对转轴的总角动量不变
+
+\subsection{刚体定轴转动动能和动能定理}
+\section{第六讲\;\;流体力学}
+\subsection{压强与平衡方程}
+\subsection{流体连续性原理}
+\subsection{伯努利方程及其应用}
+\subsection{粘滞流体的运动}
+\subsection{运动物体在流体中的受力}
+\section{第七讲\;\;相对论基础}
+\subsection{力学相对性原理}
+\subsection{狭义相对论的基础原理}
+\subsection{洛伦兹变换}
+\subsection{狭义相对论的时空观————同时相对性}
+\subsection{狭义相对论的时空观————时间延缓}
+\subsection{狭义相对论的时空观————尺度收缩}
+\subsection{质量与动量}
+\subsection{相对论动力学基础————质能关系}
+\section{第八讲\;\;简谐振动}
+\subsection{简谐运动的定义}
+\subsection{简谐运动的基本特征}
+\subsection{描述简谐运动的物理量}
+\subsection{简谐运动的能量}
+\subsection{简谐运动的能量}
+\subsection{同方向同频率简谐运动的合成}
+\subsection{同方向不同频率的谐振动的合成}
+\subsection{互相垂直的谐振动的合成}
+\subsection{阻尼振动}
+\subsection{共振}
+\section{机械波}
+\subsection{机械波的产生与传播}
+\subsection{机械波的描述}
+\subsection{平面简谐波波函数}
+\subsection{波动微分方程改}
+\subsection{波的能量}
+\subsection{波的衍射\;\;惠更斯原理}
+\subsection{波的反射和折射改}
+\subsection{波的干涉}
+\subsection{驻波\;\;半波损失}
+\subsection{多普勒效应}
+\end{document}

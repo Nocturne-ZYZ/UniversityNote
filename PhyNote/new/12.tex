@@ -1,0 +1,64 @@
+\documentclass[UTF8]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{ctex}
+
+\begin{document}
+\section{第六讲\;\;流体力学}
+\subsection{压强与平衡方程}
+
+    物质的三态：固态，液态，气态
+
+    流体（液态，气态）：具有一定体积、无固定形状、易于变形，具有一定的流动性
+
+    液体和气体的不同点：液体有一定体积，几乎不可压缩，黏性大；气体没有一定体积，充满整个容器，易压缩，粘性小
+
+    连续介质假设：流体在其存在的空间是连续、无间隙分布的，可取微分元
+
+    流体元：宏观足够小而微观足够大，流体物理量是大量流元的相应物理量的统计平均
+
+\subsubsection{流体静力学压强}
+
+    静止流体没有抵抗剪切形变的能力，作用在流体内任一面元上的应力必与该面元垂直
+
+    在静止流体中任取一个小面元$d\vec{s}$，作用在此面元上的力为$d\vec{f}$
+
+    \[\mbox{通常流体内部的压力：}d\vec{f} = -pd\vec{s}\]
+
+    p称为流体静力学压强，p为标量，单位帕（Pa）
+
+    流体中静压强与面元取向无关
+
+\subsubsection{静止流体的平衡方程}
+
+    作用在流元上的力可以分为两类
+
+    面积力：可用压强表述，作用在流元外表面上
+
+    体积力：作用在每一质量微元上，亦称质量力
+
+    设单位质量流体上的体积力为$\vec{F}$，则$d\vec{F} = \rho \vec{F}dxdydz$
+
+    对静止流体：$\rho \vec{F}dxdydz - \bigtriangledown pdxdydz = 0$
+
+    即\[\rho \vec{F}\bigtriangledown p\;\;\;\rho F_x = \frac{\partial p}{\partial}\;\;\;\rho F_y = \frac{\partial p}{\partial y}\;\;\;\rho F_y = \frac{\partial p}{\partial }\]
+
+    结论：体积力与压强梯度方向平行，体积力与等压面垂直
+
+    重力场中的静止流体\[\frac{\partial p}{\partial x} = 0\;\;\;\frac{\partial p}{\partial y} = 0\;\;\;\frac{\partial p}{\partial z} = -\rho g\]
+
+    设深度$z = z_A$处的压强$p_A$，$z = z_B$处的压强$p_B$，若密度为常量
+    \[p_B = p_A - \int_{z_A}^{z_B}\rho gdz = p_A - \rho g(z_B - z_A)\]
+
+    静止在重力场中的同种流体
+
+    \;\;（1）液体中压强随距液面深度线性变化
+
+    \;\;（2）等压面是水平面，与重力方向垂直
+
+    \[\frac{dp}{dz} = -\rho g\;\;\;\;\;z + \frac{p}{\rho g} = c\mbox{（常数）}\]
+\subsection{流体连续性原理}
+\subsection{伯努利方程及其应用}
+\subsection{粘滞流体的运动}
+\subsection{运动物体在流体中的受力}
+\end{document}

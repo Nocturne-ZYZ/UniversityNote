@@ -13,8 +13,6 @@
 \newpage
 目录
 \newpage
-目录
-\newpage
 \section{第一讲\;\;质点运动学}
 \subsection{质点运动的描述}
 
@@ -48,18 +46,18 @@
 
 \subsection{极坐标系和自然坐标系}
 \subsubsection{极坐标下的速度，加速度}
-\includegraphics[width=13cm, height=18cm]{D:/University/UniversityNote/PhyNote/1.png}
+\includegraphics[width=13cm, height=18cm]{D:/UniversityNote/PhyNote/1.png}
 \subsubsection{自然坐标下的速度，加速度}
-\includegraphics[width=13cm, height=10cm]{D:/University/UniversityNote/PhyNote/2.png}
+\includegraphics[width=13cm, height=10cm]{D:/UniversityNote/PhyNote/2.png}
 \subsection{圆周运动的速度，角速度}
-\includegraphics[width=13cm, height=10cm]{D:/University/UniversityNote/PhyNote/3.png}
+\includegraphics[width=13cm, height=10cm]{D:/UniversityNote/PhyNote/3.png}
 \subsection{相对运动}
-\includegraphics[width=13cm, height=10cm]{D:/University/UniversityNote/PhyNote/4.png}
+\includegraphics[width=13cm, height=10cm]{D:/UniversityNote/PhyNote/4.png}
 \newpage
 \section{第二讲\;\;牛顿运动}
-\includegraphics[width=13cm, height=18cm]{D:/University/UniversityNote/PhyNote/5.png}
+\includegraphics[width=13cm, height=18cm]{D:/UniversityNote/PhyNote/5.png}
 
-\includegraphics[width=13cm, height=18cm]{D:/University/UniversityNote/PhyNote/6.png}
+\includegraphics[width=13cm, height=18cm]{D:/UniversityNote/PhyNote/6.png}
 \newpage
 \section{第三讲\;\;动量定理\;\;动量守恒定律}
 \subsection{质点动量定理}
@@ -128,8 +126,6 @@
 
 \subsection{碰撞}
 
-\subsubsection{碰撞}
-
     特点：相互作用时间短；冲击力大$\rightarrow$其它力相对很小$\rightarrow$只有内力$\rightarrow$整个系统动量守恒
 
     两球对心碰撞：$m_1\vec{v_{10}} + m_2\vec{v_{20}} = m_1\vec{v_1} + m_2\vec{v_2}$
@@ -145,11 +141,96 @@
     非弹性碰撞：$0<e<1$；
 
 \newpage
-\section{第四讲\;\;}
+\section{第四讲\;\;动能定理\;\;功能原理}
 \subsection{功\;\;功能定理}
+\subsubsection{功}
+
+    （1）物体作直线运动，恒力做功
+    \[A = Fcos\theta \cdot \lvert \Delta \vec{r} \vert\;\;\;\;\;A = \vec{F}\cdot\vec{\Delta r}\]
+
+    （2）物体作曲线运动，变力做功
+    \[\mbox{元功：}dA = Fcos\theta\cdot\lvert d\vec{r}\vert = \vec{F}\cdot d\vec{r}\]
+
+    \[\mbox{总功：}A = \int_A^BdA = \int_A^B\vec{F}\cdot d\vec{r} = \int_A^BFcos\theta \lvert d\vec{r}\vert\]
+
+    （3）质点同时受几个力作用时
+
+    力的叠加原理：$\vec{F} = \vec{F_1} + \vec{F_2} + \dots + \vec{F_N}$
+
+    \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$A = A_{1AB} + A_{2AB} + \dots + A_{NAB}$
+
+    说明：
+
+    \;\;（1）合力的功等于各分力沿同一路径所做功的代数和
+
+    \;\;（2）计算力对物体做功时，必须说明是哪个力对物体沿哪条路径所做的功
+
+\subsubsection{动能定理}
+
+    1、定义：质点动能\[E_k = \frac{1}{2}mv^2\mbox{ 或者 }E_k = \frac{p^2}{2m}\]
+
+    2、质点的动能定理\[A_{\mbox{合}AB} = E_{kB} - E_{kA} = \Delta E_k = \frac{1}{2}mv_B^2 - \frac{1}{2}mv_A^2\]
+
+    \;\;合外力对质点所做的功（其它物体对它所做的总功）等于质点动能的增量
+
+    3、质点系动能定理
+
+    对n个质点组成的质点系：对每个质点分别使用动能定理
+    \[\sum_{i=1}^n A_{i\mbox{外}} + \sum_{i=1}^n A_{i\mbox{内} = \sum_{i=1}^n E_{kiB} - \sum_{i=1}^n E_{kiA}}\]
+
+    所有外力对质点系做的功和内力对质点系做的功之和等于质点系总动能的增量
+
+    注意：内力能改变系统的总动能，但不能改变系统的总动量
+
 \subsection{保守力与非保守力}
+
+    两质点间的“一对力”做功之和等于其中一个质点受的力沿着该质点相对于另一质点所移动的路径所做的功
+
+    沿任意回路做功为零的力，或做功与具体路径无关的力都称为保守力
+
+    大多数定向力和有心力都是保守力
+
 \subsection{势能\;\;势能曲线}
+
+    1、势能
+
+    势能：系统在任一位形时的势能等于它从此位形沿任意路径改变至势能零点时保守力所做的功
+
+    \[\mbox{势能}\left\{
+        \begin{aligned}
+        \mbox{势能与参考系无关（相对位移）     } \\
+        \mbox{相对量：相对于势能零点的         } \\
+        \mbox{系统量：是属于相互作用的质点共有的}
+        \end{aligned}
+        \right.\]
+    
+    \[\mbox{几种势能}\left\{
+        \begin{aligned}
+        \mbox{引力势能：（无穷远处为零势能点）} E_p(r) = -G\frac{m_1m_2}{r}\\
+        \mbox{重力势能：（高度为零为零势能点）} E_p(h) = mgh\\
+        \mbox{弹性势能：（自然伸长为零势能点）} E_p(x) = \frac{1}{2}kx^2
+        \end{aligned}
+        \right.\]
+    
+    2、势能曲线
+
+    \includegraphics[width=13cm, height=8cm]{D:/UniversityNote/PhyNote/7.png}
+    
+    \includegraphics[width=13cm, height=8cm]{D:/UniversityNote/PhyNote/8.png}
+
+    3、由势能求保守力
+
+    梯度算符：$\bigtriangledown = \frac{\partial}{\partial x}\vec{i} + \frac{\partial}{\partial x}\vec{j} + \frac{\partial}{\partial x}\vec{k}$
+    \[F_l = -\frac{dE_p}{dl}\;\;\;\;\;\vec{F} = -\bigtriangledown E_p\]
+
+    保守力等于势能的负梯度
+
 \subsection{功能原理以及机械能守恒定律}
+
+    \includegraphics[width=13cm, height=8cm]{D:/UniversityNote/PhyNote/9.png}
+
+    \includegraphics[width=13cm, height=8cm]{D:/UniversityNote/PhyNote/10.png}
+
 \newpage
 \section{第五讲\;\;角动量\;\;角动量守恒定律}
 \subsection{质点的角动量}
@@ -231,7 +312,6 @@
     （4）内力矩不影响质点系总角动量，但影响质点系中某些质点的角动量
 
 \subsection{刚体模型及其运动}
-\subsubsection{刚体的定义及特点}
 
     1、刚体的定义：在力的作用下，形状与体积都不变的物体称为刚体
 
@@ -258,7 +338,6 @@
     5、一般运动：一般运动 = 随基点的平动 + 绕基点的定轴转动，转动大小与基点（质心）的选取无关
 
 \subsection{刚体定轴转动的运动描述}
-\subsubsection{刚体定轴转动的描述}
 
     定轴转动的刚体中任意质元都在各自的转动平面内，以一定的转动半径做圆周运动
 
@@ -385,12 +464,127 @@
     角动量可在系统内部各刚体间传递，而却保持刚体系对转轴的总角动量不变
 
 \subsection{刚体定轴转动动能和动能定理}
+
+\includegraphics[width=13cm, height=8cm]{D:/UniversityNote/PhyNote/5102.jpg}
+
+\includegraphics[width=13cm, height=8cm]{D:/UniversityNote/PhyNote/5103.jpg}
+
+\includegraphics[width=13cm, height=8cm]{D:/UniversityNote/PhyNote/5104.jpg}
+
+\includegraphics[width=13cm, height=8cm]{D:/UniversityNote/PhyNote/5105.jpg}
 \newpage
 \section{第六讲\;\;流体力学}
+\section{第六讲\;\;流体力学}
 \subsection{压强与平衡方程}
+
+    物质的三态：固态，液态，气态
+
+    流体（液态，气态）：具有一定体积、无固定形状、易于变形，具有一定的流动性
+
+    液体和气体的不同点：液体有一定体积，几乎不可压缩，黏性大；气体没有一定体积，充满整个容器，易压缩，粘性小
+
+    连续介质假设：流体在其存在的空间是连续、无间隙分布的，可取微分元
+
+    流体元：宏观足够小而微观足够大，流体物理量是大量流元的相应物理量的统计平均
+
+\subsubsection{流体静力学压强}
+
+    静止流体没有抵抗剪切形变的能力，作用在流体内任一面元上的应力必与该面元垂直
+
+    在静止流体中任取一个小面元$d\vec{s}$，作用在此面元上的力为$d\vec{f}$
+
+    $\mbox{通常流体内部的压力：}d\vec{f} = -pd\vec{s}$
+
+    p称为流体静力学压强，p为标量，单位帕（Pa）
+
+    流体中静压强与面元取向无关
+
+\subsubsection{静止流体的平衡方程}
+
+    作用在流元上的力可以分为两类
+
+    面积力：可用压强表述，作用在流元外表面上
+
+    体积力：作用在每一质量微元上，亦称质量力
+
+    设单位质量流体上的体积力为$\vec{F}$，则$d\vec{F} = \rho \vec{F}dxdydz$
+
+    对静止流体：$\rho \vec{F}dxdydz - \bigtriangledown pdxdydz = 0$
+
+    即\[\rho \vec{F} = \bigtriangledown p\;\;\;\rho F_x = \frac{\partial p}{\partial x}\;\;\;\rho F_y = \frac{\partial p}{\partial y}\;\;\;\rho F_y = \frac{\partial p}{\partial z}\]
+
+    结论：体积力与压强梯度方向平行，体积力与等压面垂直
+
+    重力场中的静止流体\[\frac{\partial p}{\partial x} = 0\;\;\;\frac{\partial p}{\partial y} = 0\;\;\;\frac{\partial p}{\partial z} = -\rho g\]
+
+    设深度$z = z_A$处的压强$p_A$，$z = z_B$处的压强$p_B$，若密度为常量
+    \[p_B = p_A - \int_{z_A}^{z_B}\rho gdz = p_A - \rho g(z_B - z_A)\]
+
+    静止在重力场中的同种流体
+
+    \;\;（1）液体中压强随距液面深度线性变化
+
+    \;\;（2）等压面是水平面，与重力方向垂直
+
+    \[\frac{dp}{dz} = -\rho g\;\;\;\;\;z + \frac{p}{\rho g} = c\mbox{（常数）}\]
+
 \subsection{流体连续性原理}
+
+    流体的粘性：流体流动时，各流层间存在着阻碍相对运动的内摩擦力，这就是流体的粘性。
+
+    理想流体：不可压缩、无粘性的流体称为理想流体
+
+\subsubsection{流体运动的描述方法}
+
+    1.拉格朗日法：以研究个别流元的运动为基础，通过对每个流元运动规律的研究来获得整个流体的运动规律。
+    （着眼于流体质点，跟踪每个流元来了解整个流体的运动规律。）
+
+    2.欧拉法：考察通过空间固定的位置点的不同液体质点的运动状态，形成一个矢量场来了解流体在整个运动空间内的流动情况。
+    （着眼于空间点，研究流经空间各固定点的流元的运动，获取流体的运动规律。）
+
+    任一时刻流体空间的每一点上都有一个流速$\vec{v}$与之对应，形成一个矢量场—流速场。如果流速只是空间坐标的函数而不依赖于时间，则称为稳定流动，简称稳流。
+
+    迹线：某一流体质点在运动过程中，不同时刻所流经的空间点连成的曲线。
+
+    流线：某瞬间在流场中绘出的曲线，曲线上各流元的速度矢量和该线相切
+    
+    （1）流线表示瞬时流动方向，流线不能相交。
+    
+    （2）流线密处流速大，流线稀处流速小
+
+    流管：某时刻在速度场中做一条非流线的曲线，经过曲线上的每一点做流线，这些流线在空间形成一个曲面，称为流面。如果在流体中所做的非流线的曲线是闭合的，则所得到的流面称为流管。流管内外的流体都没有穿过流面的速度分量，管内流体不能流到管外，管外流体也不能流入管内。对稳定流动，流线和流管都不随时间变化，流管和真的管道相似。
+    
+\subsubsection{流体的连续性原理}
+
+    体积流量：流体中单位时间内流过某一横截面的流体体积
+
+    对于面元$\Delta \vec{s} \rightarrow 0\;\;\;\Delta \vec{s}\rightarrow d\vec{s}$
+    
+    可认为面元上各点流速$\vec{v}$相等，单位时间内流过面元的流体体积
+    \[dQ_v = \frac{dV}{dt} = \frac{ds\cdot vdt\cdot cos\theta}{dt} = \vec{v}\cdot d\vec{s}\]
+
+    对一封闭曲面S$Q_V = \int dQ_V = \int_S\vec{v}\cdot d\vec{s}$——体积流量
+
+    质量流量：流体中单位时间内流过某一横截面的流体质量$dQ_m = \rho \vec{v}\cdot d\vec{s}\;\;\;Q_m = \int dQ_m = \int_S\rho\vec{v}\cdot d\vec{s}$
+
+    流体的连续性原理：$\rho \vec{v}\cdot d\vec{s} - \int_S\frac{\partial \rho}{\partial t}dV = 0$
+
+    不可压缩流体：$\frac{\partial \rho}{\partial t} = 0\;\;\;\int_S\vec{v}\cdot d\vec{s} = 0$
+
+    稳定流动：流管不随时间变化，类似真实管道
+
+    稳定流动的连续性原理：
+
+    \;\;对任意流管：$\rho vdS = $常量
+    
+    \;\;对不可压缩流体：$vdS = $常量
+
+    截面大处流速小、流线疏；截面小处流速大、流线密
+
 \subsection{伯努利方程及其应用}
-\subsection{运动物体在流体中的受力}
+
+\includegraphics[width=13cm, height=12cm]{D:/UniversityNote/PhyNote/11.png}
+
 \newpage
 \section{第七讲\;\;相对论基础}
 \subsection{力学相对性原理}

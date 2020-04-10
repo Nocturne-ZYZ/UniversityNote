@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.8)  9 APR 2020 08:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.26)  9 APR 2020 09:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/University/UniversityNote/PhyNote/1-7/1-7.tex
-(d:/University/UniversityNote/PhyNote/1-7/1-7.tex
+**d:/UniversityNote/PhyNote/1-7/1-7.tex
+(d:/UniversityNote/PhyNote/1-7/1-7.tex
 LaTeX2e <2018-12-01>
-(d:/Program/texlive/2019/texmf-dist/tex/latex/base/article.cls
+(d:/program/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(d:/Program/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+(d:/program/texlive/2019/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -22,9 +22,9 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/ctex.sty (d:/Program/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/ctex.sty (d:/program/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-04-06 L3 programming layer (loader) 
- (d:/Program/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+ (d:/program/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2019-04-06 L3 programming layer (code)
 \c_max_int=\count88
 \l_tmpa_int=\count89
@@ -175,30 +175,30 @@ Package: expl3 2019-04-06 L3 programming layer (code)
 \l__seq_internal_a_int=\count171
 \l__seq_internal_b_int=\count172
 \c__deprecation_minus_one=\count173
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+) (d:/program/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count174
 ))
 Package: ctex 2019/04/07 v2.4.15 Chinese adapter in LaTeX (CTEX)
- (d:/Program/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+ (d:/program/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2019-03-05 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count175
 \g__xparse_grabber_int=\count176
 \l__xparse_m_args_int=\count177
 \l__xparse_v_nesting_int=\count178
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2019-03-05 LaTeX2e option processing using LaTeX3 keys
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/ctexhook.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2019/04/07 v2.4.15 Document and package hooks (CTEX)
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/ctexpatch.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/ctexpatch.sty
 Package: ctexpatch 2019/04/07 v2.4.15 Patching commands (CTEX)
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/base/fix-cm.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
- (d:/Program/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+ (d:/program/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
- (d:/Program/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+ (d:/program/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -270,7 +270,7 @@ File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
    defining Unicode char U+FEFF (decimal 65279)
-))) (d:/Program/texlive/2019/texmf-dist/tex/latex/ms/everysel.sty
+))) (d:/program/texlive/2019/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \l__ctex_tmp_int=\count179
@@ -278,23 +278,23 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \l__ctex_tmp_dim=\dimen135
 \g__ctex_section_depth_int=\count180
 \g__ctex_font_size_int=\count181
- (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+ (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2019/04/07 v2.4.15 Option configuration file (CTEX)
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
+) (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
 File: ctex-engine-pdftex.def 2019/04/07 v2.4.15 (pdf)LaTeX adapter (CTEX)
- (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
+ (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
 Package: CJKutf8 2015/04/18 4.8.4
- (d:/Program/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+ (d:/program/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJK.sty
 Package: CJK 2015/04/18 4.8.4
- (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+ (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
 Package: MULEenc 2015/04/18 4.8.4
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+) (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJK.enc
 File: CJK.enc 2015/04/18 4.8.4
 Now handling font encoding C00 ...
 ... no UTF-8 mapping file for font encoding C00
@@ -363,9 +363,9 @@ Now handling font encoding C62 ...
 )
 LaTeX Info: Redefining \selectfont on input line 755.
 \CJK@indent=\box46
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-)) (d:/Program/texlive/2019/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+)) (d:/program/texlive/2019/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
 Package: CJKpunct 2016/05/14 4.8.4
 \CJKpunct@cnta=\count182
 \CJKpunct@cntb=\count183
@@ -378,15 +378,15 @@ Package: CJKpunct 2016/05/14 4.8.4
    defining Unicode char U+201D (decimal 8221)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2026 (decimal 8230)
- (d:/Program/texlive/2019/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa)) (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
+ (d:/program/texlive/2019/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa)) (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
 Package: CJKspace 2015/04/18 3.8.0
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/ctexspa.def
+) (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/ctexspa.def
 File: ctexspa.def 2019/04/07 v2.4.15 Space info for CJKpunct (CTEX)
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
 Package: CJKfntef 2015/04/18 4.8.4
- (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKulem.sty
+ (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKulem.sty
 Package: CJKulem 2015/04/18 4.8.4
- (d:/Program/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
+ (d:/program/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box47
 \UL@hyphenbox=\box48
 \UL@skip=\skip49
@@ -412,44 +412,44 @@ Package: ulem 2012/05/18
 \l__ctex_ccglue_skip=\skip52
 )
 \l__ctex_ziju_dim=\dimen143
- (d:/Program/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+ (d:/program/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count189
 \l__zhnum_byte_min_int=\count190
 \l__zhnum_byte_max_int=\count191
- (d:/Program/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+ (d:/program/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
-)) (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+)) (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
 File: ctex-scheme-chinese.def 2019/04/07 v2.4.15 Chinese scheme for generic (CTEX)
- (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+ (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2019/04/07 v2.4.15 Caption with encoding UTF8 (CTEX)
-)) (d:/Program/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
+)) (d:/program/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+) (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/ctex-c5size.clo
 File: ctex-c5size.clo 2019/04/07 v2.4.15 c5size option (CTEX)
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+) (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
 File: ctex-fontset-windows.def 2019/04/07 v2.4.15 Windows fonts definition (CTEX)
- (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
+ (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
 File: ctex-fontset-windowsnew.def 2019/04/07 v2.4.15 Windows fonts definition for Vista or later version (CTEX)
- (d:/Program/texlive/2019/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
+ (d:/program/texlive/2019/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
 File: zhwindowsfonts.tex 2019/04/07 v2.4.15 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
-{d:/Program/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd})))) (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/config/ctex.cfg
+{d:/program/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd})))) (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2019/04/07 v2.4.15 Configuration file (CTEX)
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
-(d:/Program/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/program/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (d:/Program/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (d:/program/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen144
-)) (d:/Program/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (d:/program/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen145
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count192
@@ -489,31 +489,31 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
- (d:/Program/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+ (d:/program/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- (d:/Program/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+ (d:/program/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (d:/program/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
- (d:/Program/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (d:/program/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen153
 \Gin@req@width=\dimen154
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+) (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+) (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2015/04/18 4.8.4
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+) (d:/program/texlive/2019/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
-) (d:\University\UniversityNote\PhyNote\1-7/1-7.aux)
+) (d:\UniversityNote\PhyNote\1-7/1-7.aux)
 \openout1 = `1-7.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -596,7 +596,7 @@ LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5.
- (d:/Program/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (d:/program/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count270
 \scratchdimen=\dimen155
@@ -609,26 +609,26 @@ LaTeX Info: Redefining \selectfont on input line 5.
 \MPnumerator=\count274
 \makeMPintoPDFobject=\count275
 \everyMPtoPDFconversion=\toks24
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- (d:/Program/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+ (d:/program/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (d:/Program/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+) (d:/program/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- (d:/Program/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+ (d:/program/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
- (d:/Program/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+ (d:/program/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) (d:/Program/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+))) (d:/program/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (d:/Program/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+ (d:/program/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (d:/Program/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+ (d:/program/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- (d:/Program/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+ (d:/program/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)))) (d:/Program/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+)))) (d:/program/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -639,11 +639,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
- (d:/Program/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (d:/program/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    Try loading font information for C70+rm on input line 6.
- (d:/Program/texlive/2019/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+ (d:/program/texlive/2019/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2019/04/07 v2.4.15 Chinese font definition (CTEX)
 )
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 10.
@@ -654,25 +654,68 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 
 [1
 
-] [2] (d:\University\UniversityNote\PhyNote\1-7/1-7.aux)
+]
+<D:/UniversityNote/PhyNote/7.png, id=104, 354.72525pt x 210.18526pt>
+File: D:/UniversityNote/PhyNote/7.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/7.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/7.png  used on input line 79.
+(pdftex.def)             Requested size: 369.89066pt x 227.63492pt.
+
+Overfull \hbox (45.96939pt too wide) in paragraph at lines 79--80
+[][] 
+ []
+
+[2]
+<D:/UniversityNote/PhyNote/8.png, id=133, 472.164pt x 238.491pt>
+File: D:/UniversityNote/PhyNote/8.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/8.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/8.png  used on input line 81.
+(pdftex.def)             Requested size: 369.88586pt x 227.62776pt.
+
+Overfull \hbox (45.9646pt too wide) in paragraph at lines 81--82
+[][] 
+ []
+
+<D:/UniversityNote/PhyNote/9.png, id=135, 476.37975pt x 254.75175pt>
+File: D:/UniversityNote/PhyNote/9.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/9.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/9.png  used on input line 92.
+(pdftex.def)             Requested size: 369.88829pt x 227.62238pt.
+
+Overfull \hbox (45.96703pt too wide) in paragraph at lines 92--93
+[][] 
+ []
+
+[3 <d:/UniversityNote/PhyNote/7.png (PNG copy)> <d:/UniversityNote/PhyNote/8.png (PNG copy)>]
+<D:/UniversityNote/PhyNote/10.png, id=140, 471.56175pt x 257.763pt>
+File: D:/UniversityNote/PhyNote/10.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/10.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/10.png  used on input line 94.
+(pdftex.def)             Requested size: 369.90335pt x 227.63057pt.
+
+Overfull \hbox (45.98209pt too wide) in paragraph at lines 94--95
+[][] 
+ []
+
+[4 <d:/UniversityNote/PhyNote/9.png (PNG copy)> <d:/UniversityNote/PhyNote/10.png (PNG copy)>] (d:\UniversityNote\PhyNote\1-7/1-7.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 15505 strings out of 492623
- 286036 string characters out of 6129531
- 310118 words of memory out of 5000000
- 19122 multiletter control sequences out of 15000+600000
- 550977 words of font info for 93 fonts, out of 8000000 for 9000
+ 15691 strings out of 492623
+ 288747 string characters out of 6129530
+ 311118 words of memory out of 5000000
+ 19272 multiletter control sequences out of 15000+600000
+ 555027 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,4n,63p,532b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on d:\University\UniversityNote\PhyNote\1-7/1-7.pdf (2 pages, 297646 bytes).
+ 41i,8n,63p,521b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/program/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on d:\UniversityNote\PhyNote\1-7/1-7.pdf (4 pages, 709592 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
+ 390 PDF objects out of 1000 (max. 8388607)
+ 247 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

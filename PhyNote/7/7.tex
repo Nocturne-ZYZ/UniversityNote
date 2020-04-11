@@ -1,0 +1,60 @@
+\documentclass[UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+\subsection{洛伦兹变换}
+
+\[ \mbox{洛伦兹坐标变换}\left\{
+\begin{aligned}
+x^{'} & = & \frac{x - vt}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+y^{'} & = & y \\
+z^{'} & = & z \\
+t^{'} & = & \frac{t - \frac{vx}{c^2}}{\sqrt{1 - \frac{v^2}{c^2}}}
+\end{aligned}
+\right.
+\;\;\;\;\;
+\mbox{洛伦兹坐标逆变换}\left\{
+\begin{aligned}
+x & = & \frac{x^{'} - vt}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+y & = & y^{'} \\
+z & = & z^{'} \\
+t & = & \frac{t^{'} - \frac{vx}{c^2}}{\sqrt{1 - \frac{v^2}{c^2}}}
+\end{aligned}
+\right.
+\]
+\[ \mbox{洛伦兹速度变换}\left\{
+\begin{aligned}
+u^{'}_x & = & \frac{u_x - v}{1 - \frac{vu_x}{c^2}} \\
+u^{'}_y & = & \frac{u_y}{1 - \frac{vu_x}{c^2}}\sqrt{1 - \frac{v^2}{c^2}} \\
+u^{'}_z & = & \frac{u_z}{1 - \frac{vu_x}{c^2}}\sqrt{1 - \frac{v^2}{c^2}}
+\end{aligned}
+\right.
+\;\;\;
+\mbox{洛伦兹速度逆变换}\left\{
+\begin{aligned}
+u_x & = & \frac{u^{'}_x - v}{1 + \frac{vu^{'}_x}{c^2}} \\
+u_y & = & \frac{u^{'}_y}{1 + \frac{vu^{'}_x}{c^2}}\sqrt{1 - \frac{v^2}{c^2}} \\
+u_z & = & \frac{u^{'}_z}{1 + \frac{vu^{'}_x}{c^2}}\sqrt{1 - \frac{v^2}{c^2}}
+\end{aligned}
+\right.
+\]
+
+\subsection{狭义相对论的时空观}
+
+    同时的相对性：在不同的惯性参考系中观测，时间发生的顺序可能颠倒
+
+    时间延缓效应：
+    \[\Delta t = \frac{\Delta t_0}{\sqrt{1 - \frac{v^2}{c^2}}}\]
+
+    长度收缩效应：
+    \[L = L_0\sqrt{1 - \frac{v^2}{c^2}}\]
+
+\subsection{相对论动力学基础}
+
+    相对论质量，动量，能量的定义以及爱因斯坦质能关系
+    \[m = \frac{m_0}{\sqrt{1 - v^2}c^2}\;\;\;p = \frac{m_0v}{\sqrt{1 - \frac{v^2}{c^2}}}\]
+
+    \[E = mc^2\;\;\;E^2 = p^2c^2 + m_0^2c^4 = E_k + m_0c^2\]
+\end{document}

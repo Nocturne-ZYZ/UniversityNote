@@ -1,0 +1,114 @@
+\documentclass[UTF8]{article}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\newpage
+
+    \thispagestyle{empty}
+    \begin{center}
+    \parbox[t][1cm][t]{\textwidth}{
+    \begin{center}  \end{center} }
+
+    \parbox[t][1cm][c]{\textwidth}{\large
+    \begin{center} {\textbf{\textsf \mbox{“大学物理云端授课最美笔记评选”参评笔记}}}\end{center} }
+
+    \parbox[t][9cm][c]{\textwidth}{\huge
+    \begin{center} {\textbf{\textsf \mbox{大学物理（B）（第三章）} }}\end{center} }
+
+    \parbox[t][1cm][t]{\textwidth}{
+    \begin{center}  \end{center} }
+
+    \parbox[t][5cm][b]{\textwidth}{
+    \begin{center} {\large \textsf{\textbf{訾宇哲1190202006\\
+            计算机与电子通信\\ 19L0220班\\} }} \end{center} }
+        \end{center}
+
+\newpage
+\tableofcontents
+\newpage
+\section{第三讲\;\;动量定理\;\;动量守恒定律}
+\subsection{质点动量定理}
+
+    动量：$\vec{P} = m\vec{v}$，单位：$kg\cdot m/s$
+    
+    质点动量定理微分形式：\[\vec{F}dt = d\vec{P}\]
+
+    质点动量定理积分形式：\[\vec{I} = \int_{t_1}^{t_2}\vec{F}dt = \int_{P_1}^{P_2}d\vec{P} = \vec{p_2} - \vec{P_1}\]
+
+\subsubsection{质点动量定理}
+
+    $\vec{I} = \vec{P_2} - \vec{P_1}$，过程量等于两状态量之差
+
+    分量形式：$I_i = P_{2i} - P_{1i}\;(i = x, y, z)$，只适用于惯性系
+
+\subsubsection{质点系动量定理}
+
+    质点系内部n个质点，外部m个质点
+
+    第i个质点所受力
+    \[\vec{F_i} = \frac{d\vec{P_i}}{dt} = \sum_{\substack{i\neq j\\j=i}}^{m+n}\vec{F_{ij}}\;\;\;\;\;\vec{F_i} = \vec{F_{i\mbox{外}}}+\vec{F_{i\mbox{内}}}\]
+
+    \[\vec{F_{i\mbox{外}}} = \sum_{\substack{i\neq j\\j=n+i}}^{m+n}\vec{F_{ij}}\;\;\;\;\;\vec{F_i} = \frac{d\vec{P_i}}{dt}\;\;\;\;\;\sum_{i+1}^n = \frac{d}{dt}\sum_{i+1}^n\vec{P_i}\]
+    
+    系统内力之和为零，质点系总动量\;\;$P = \sum_{i=1}^n\vec{P_i}$
+
+    质点系动量定理：$\vec{F_{\mbox{外}}} = \frac{d\vec{P}}{dt}$\;\;\;系统受到的合外力等于系统动量对时间的变化率
+
+    说明：内力能使系统内各个质点的动量发生改变（相互交换动量），但它们对系统的总动量没有任何影响
+
+\subsubsection{动量守恒定律}
+
+    由质点系动量定理\;\;\;$\vec{F_{\mbox{外}}} = \frac{d\vec{P}}{dt}$，当系统所受的合外力为0，即$\vec{F_{\mbox{外}}} = 0$
+
+    \[\frac{d\vec{P}}{dt} = 0\;\;\;\;\;\vec{P} = \sum_i\vec{P_i} = \sum_im\vec{v_i}\;\;\mbox{常矢量}\]
+
+    动量守恒定律：当一个质点系受到的合外力为零时，该系统的总动量保持不变
+
+\subsection{质心，质心运动定理}
+
+\subsubsection{质心}
+
+    质心：\[\vec{r_c} = \frac{\sum_{i=1}^n m_i\vec{F_i}}{m}\;\;(m = \sum_i m_i)\]
+
+    质心坐标：\[x_c = \frac{\sum_i m_i x_i}{m}\;\;\;y_c = \frac{\sum_im_iy_i}{m}\;\;\;z_c = \frac{\sum_im_ix_i}{m}\]
+
+    质量连续分布的物体：\[r_c = \frac{\int\vec{r}dm}{m}\;\;\;x_c = \frac{\int xdm}{m}\;\;\;y_c = \frac{\int ydm}{dm}\;\;\;z_c = \frac{\int zdm}{m}\]
+
+    说明：质心的定义与坐标原点的选择有关
+
+\subsubsection{质心运动定理}
+
+    由质心定义：\[\vec{r_c} = \frac{\sum m_i\vec r_i}{m}\]
+    
+    质心速度：\[\vec{v_c} = \frac{d\vec{r_c}}{dt} = \frac{\sum m_i\vec{v_i}}{m}\]
+
+    质心加速度：\[\vec{a_c} = \frac{d^2\vec{r_c}}{dt^2} = \frac{\sum_i m_i\vec{a_i}}{m}\]
+
+    质点系的动量是质点系内各质点动量的矢量和
+    \[\vec{P} = \sum_i m_i\vec{v_i} = m\frac{\sum_i m_i\vec{v_i}}{m} = m\vec{v_c}\]
+
+    \[\vec{P} = m\vec{v_c}\;\;\;\;\;\vec{F_{\mbox{外}}} = \frac{d\vec{P}}{t} = m\frac{d\vec{v_c}}{dt} = m\vec{a_c}\;\;\;\;\;\vec{F_{\mbox{外}}} = m\vec{a_c}\mbox{——质心运动定理}\]
+
+    当物体只做平动时，质心运动代表整个物体的运动
+
+\subsection{碰撞}
+
+    特点：相互作用时间短；冲击力大$\rightarrow$其它力相对很小$\rightarrow$只有内力$\rightarrow$整个系统动量守恒
+
+    两球对心碰撞：$m_1\vec{v_{10}} + m_2\vec{v_{20}} = m_1\vec{v_1} + m_2\vec{v_2}$
+
+    引入“恢复系数”：\[e = \lvert \frac{\vec{v_2} - \vec{v_1}}{\vec{v_{10}} - \vec{v_{20}}} \rvert\]
+
+    可得\[v_1 = v_{10} - \frac{(1+e)m_2(v_{10} - v_{20})}{m_1 + m_2}\;\;\;v_2 = v_{20} + \frac{(1+e)m_1(v_{10} - v_{20})}{m_1 + m_2}\]
+
+    完全弹性碰撞：$e = 1$；
+
+    完全非弹性碰撞：$e = 0$；损失的机械能$\rightarrow$体系的内能
+
+    非弹性碰撞：$0<e<1$；
+
+\newpage
+\end{document}

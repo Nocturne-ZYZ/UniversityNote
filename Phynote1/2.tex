@@ -1,0 +1,107 @@
+\documentclass[12pt,a4paper,twoside,openany,fleqn]{report}
+
+\usepackage{CJK}
+
+\usepackage{graphicx} % 加载图的包
+
+% 重定义字体命令
+\newcommand{\song}{\CJKfamily{song}} % 宋体 (Windows自带simsun.ttf)
+\newcommand{\fs}{\CJKfamily{fs}} % 仿宋体 (华天字库htfs.ttf)
+\newcommand{\kai}{\CJKfamily{kai}} % 楷体 (华天字库htkai.ttf)
+\newcommand{\hei}{\CJKfamily{hei}} % 黑体 (Windows自带simhei.ttf)
+\newcommand{\li}{\CJKfamily{li}} % 隶书 (Windows自带simli.ttf)
+\newcommand{\you}{\CJKfamily{you}} % 幼圆体 (Windows自带simyou.ttf)
+%%% 以上六种字体均为标准 GBK 字体, 包括 GBK 繁体字和一些不常用字, 推荐!!!
+
+\newcommand{\xs}{\CJKfamily{xs}}
+\newcommand{\shu}{\CJKfamily{shu}} % 舒体 (方正字库fzstk.ttf)
+% \newcommand{\yourcommand}[参数个数]{内容} [参数个数]这个是可选的。
+% 例如 \newcommand{\you}{\CJKfamily{you}} 用\you 来代替 \CJKfamily{you} ，少输入很多字哦。
+
+%------------------------------------------------------------------------
+%字号设置
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoyihao}{\fontsize{24pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}
+% \baselineskip | distance from bottom of one line of a paragraph to bottom of the next line. 基本行距
+% 只有使用\selectfont命令之后，\fontzize{}{}的设置才能生效
+% 可以用数字表示{11pt}:单倍行距
+
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%-----封面----%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\song\sihao\thispagestyle{empty} \indent { 索取号: \ \underline{O242/6.431
+}\hspace{5cm}密级：\underline{公\quad 开}}
+
+% \thispagestyle{sty}determines characteristics of head and foot for the current page only.
+% Used to override \pagestyle (q.v.) temporarily.
+
+%\noindent suppresses indentation of first line of paragraph 没有缩进
+
+% \hspace{len} leaves a horizontal space of dimension len .
+
+\vspace*{8mm}
+%添加校名图
+\begin{center}
+\includegraphics[width=85mm]{xiaoming-eps-converted-to.pdf}
+\end{center}
+
+\vspace{6mm}
+\centerline{\hei\xiaoyihao\textbf{ 硕\ \ 士\ \ 学\ \ 位\ \ 论\ \ 文}} %居中，黑体，小一号，加粗
+\vspace{8mm}
+
+%添加校徽图
+\begin{center}
+\includegraphics[width=24mm]{xiaohui-eps-converted-to.pdf}
+\end{center}
+
+\vspace{13mm}
+
+%标题 黑体，小一号，加粗，居中 （这次用的\begin \end）
+\begin{center}
+\hei\xiaoyihao\textbf{拟地球自转方程的一些结果}\\
+\end{center}
+
+\vspace{1.5cm}
+
+\begin{tabbing} %tabbing 列表
+
+\hspace*{3cm} \= \hspace{2.6cm} \= \kill
+% \= in tabbing environment, sets a tab stop
+% \kill in a\tabbing environment, deletes previous line so tabs can be set without outputting text.
+% \> in tabbing environment is a forward tab.
+% 这次的居中 用的 \centering ，注意三次的区别。
+\>{\song\sihao\textbf {研\hspace{0.2cm}究\hspace{0.3cm}生\ \ ：}} \>
+{\centering\song\sihao\textbf{~~~~~~~~~~******~~~~~~~~~~~~~}}\\
+% 总长3.4cm
+\\
+\>{\song\sihao\textbf {指导教师 \ \ ：}}\> {\centering\song\sihao\textbf{~~~~~~~~**********~~~~~~~~~~~}} \\
+\\
+\>{\song\sihao\textbf {培养单位 \ \ ：}}\> {\centering\song\sihao\textbf{~~~~~~~************~~~~~~~~~~}}\\
+\\
+\>{\song\sihao\textbf {一级学科 \ \ ：}}\> {\centering\song\sihao\textbf{~~~~~~~~~~~*****~~~~~~~~~~~~}}\\
+\\
+\>{\song\sihao\textbf {二级学科 \ \ ：}}\> {\centering\song\sihao\textbf{~~*******************~~~~~~~}} \\
+\\
+\>{\song\sihao\textbf {完成时间 \ \ ：}}\> {\centering\song\sihao\textbf{~~~~~~2013年5月12日~~~~~~~~~~}}\\
+\\
+\>{\song\sihao\textbf {答辩时间 \ \ ：}}\> {\centering\song\sihao\textbf{~~~~~~2013年5月26日~~~~~~~~~~}} \\
+
+\end{tabbing}
+
+\end{CJK*}
+\end{document}

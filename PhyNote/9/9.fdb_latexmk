@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1589787183 "d:/UniversityNote/PhyNote/9/9.tex" "d:/UniversityNote/PhyNote/9/9.pdf" "9" 1589787185
+["pdflatex"] 1589787183 "d:/UniversityNote/PhyNote/9/9.tex" "d:/UniversityNote/PhyNote/9/9.pdf" "9" 1589816305
   "9.aux" 1589787184 687 7ed2a04f611880182873e39a53b75cac "pdflatex"
-  "9.tex" 1589787180 4351 0bbc6a85e432a0ac267c70c876cf60ba ""
+  "9.tex" 1589804086 4351 0bbc6a85e432a0ac267c70c876cf60ba ""
   "901.png" 1589786804 130417 443df9729e8715297bf3b72d30a6a12e ""
   "902.png" 1589786821 129803 a0249d587ca34ceb139d0161931a3c2b ""
   "903.png" 1589786853 148247 0bb1e4b52ba34219c9688b9115533202 ""
@@ -9,7 +9,7 @@
   "c:/Windows/Fonts/simhei.ttf" 1551461700 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
   "c:/Windows/Fonts/simsun.ttc" 1552970651 18214472 19674afc0754c3df8182b89fe7f0156d ""
   "d:/UniversityNote/PhyNote/9/9.aux" 1589787184 687 7ed2a04f611880182873e39a53b75cac ""
-  "d:/UniversityNote/PhyNote/9/9.tex" 1589787180 4351 0bbc6a85e432a0ac267c70c876cf60ba ""
+  "d:/UniversityNote/PhyNote/9/9.tex" 1589804086 4351 0bbc6a85e432a0ac267c70c876cf60ba ""
   "d:/program/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1587116478 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/program/texlive/2020/texmf-dist/fonts/sfd/ttf2pk/UGBK.sfd" 1587117527 182544 bcd31d5d273400b38612a969fcab55f9 ""
   "d:/program/texlive/2020/texmf-dist/fonts/sfd/ttf2pk/Unicode.sfd" 1587117527 103212 c249c63d38b8b55408aee52d643b0c18 ""
@@ -169,8 +169,8 @@
   "d:/program/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1587117853 2432520 0ad89d714e2466fc776204d09519b229 ""
   "d:/program/texlive/2020/texmf.cnf" 1587117699 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   (generated)
-  "9.aux"
-  "d:/UniversityNote/PhyNote/9/9.pdf"
   "d:/UniversityNote/PhyNote/9/9.log"
   "9.pdf"
   "9.log"
+  "9.aux"
+  "d:/UniversityNote/PhyNote/9/9.pdf"

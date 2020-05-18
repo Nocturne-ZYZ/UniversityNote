@@ -1,13 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1588218482 "c:/Users/ZYZ/Desktop/Phynote/1.tex" "c:/Users/ZYZ/Desktop/Phynote/1.pdf" "1" 1588218484
-  "1.aux" 1588218483 1150 1d0d755acf4e4e7e42cf7a6218f13c2c "pdflatex"
-  "1.tex" 1588218481 4613 fa9361d2155af9dfac7adc6fbcfdfb3f ""
-  "1.toc" 1588218483 769 29e21ecda91b45090340f5ba15d9c3cf "pdflatex"
-  "c:/Users/ZYZ/Desktop/Phynote/1.aux" 1588218483 1150 1d0d755acf4e4e7e42cf7a6218f13c2c ""
-  "c:/Users/ZYZ/Desktop/Phynote/1.tex" 1588218481 4613 fa9361d2155af9dfac7adc6fbcfdfb3f ""
+["pdflatex"] 1588219298 "d:/UniversityNote/Phynote1/1.tex" "d:/UniversityNote/Phynote1/1.pdf" "1" 1588219300
+  "1.aux" 1588219299 1150 1d0d755acf4e4e7e42cf7a6218f13c2c "pdflatex"
+  "1.tex" 1588219297 4613 cfca646071bec8b88ad9ecf9df2fc89d ""
+  "1.toc" 1588219299 769 29e21ecda91b45090340f5ba15d9c3cf "pdflatex"
   "c:/Windows/Fonts/msyh.ttc" 1552970651 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "c:/Windows/Fonts/simhei.ttf" 1551461700 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
   "c:/Windows/Fonts/simsun.ttc" 1552970651 18214472 19674afc0754c3df8182b89fe7f0156d ""
+  "d:/UniversityNote/Phynote1/1.aux" 1588219299 1150 1d0d755acf4e4e7e42cf7a6218f13c2c ""
+  "d:/UniversityNote/Phynote1/1.tex" 1588219297 4613 cfca646071bec8b88ad9ecf9df2fc89d ""
   "d:/program/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1587116478 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/program/texlive/2020/texmf-dist/fonts/sfd/ttf2pk/UGBK.sfd" 1587117527 182544 bcd31d5d273400b38612a969fcab55f9 ""
   "d:/program/texlive/2020/texmf-dist/fonts/sfd/ttf2pk/Unicode.sfd" 1587117527 103212 c249c63d38b8b55408aee52d643b0c18 ""
@@ -177,9 +177,9 @@
   "d:/program/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1587117853 2432520 0ad89d714e2466fc776204d09519b229 ""
   "d:/program/texlive/2020/texmf.cnf" 1587117699 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   (generated)
+  "d:/UniversityNote/Phynote1/1.pdf"
   "1.aux"
   "1.log"
-  "1.toc"
-  "c:/Users/ZYZ/Desktop/Phynote/1.pdf"
-  "c:/Users/ZYZ/Desktop/Phynote/1.log"
+  "d:/UniversityNote/Phynote1/1.log"
   "1.pdf"
+  "1.toc"

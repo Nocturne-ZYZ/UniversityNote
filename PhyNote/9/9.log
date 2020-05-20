@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.4.17)  20 MAY 2020 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.4.17)  20 MAY 2020 17:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -416,17 +416,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
 File: D:/UniversityNote/PhyNote/9/901.png Graphic file (type png)
 <use D:/UniversityNote/PhyNote/9/901.png>
 Package pdftex.def Info: D:/UniversityNote/PhyNote/9/901.png  used on input line 115.
-(pdftex.def)             Requested size: 369.89108pt x 199.17902pt.
+(pdftex.def)             Requested size: 369.89108pt x 227.63316pt.
 <D:/UniversityNote/PhyNote/9/902.png, id=142, 532.389pt x 294.50024pt>
 File: D:/UniversityNote/PhyNote/9/902.png Graphic file (type png)
 <use D:/UniversityNote/PhyNote/9/902.png>
 Package pdftex.def Info: D:/UniversityNote/PhyNote/9/902.png  used on input line 116.
-(pdftex.def)             Requested size: 369.89148pt x 199.17902pt.
+(pdftex.def)             Requested size: 369.89148pt x 227.63316pt.
 <D:/UniversityNote/PhyNote/9/903.png, id=143, 528.7755pt x 292.6935pt>
 File: D:/UniversityNote/PhyNote/9/903.png Graphic file (type png)
 <use D:/UniversityNote/PhyNote/9/903.png>
 Package pdftex.def Info: D:/UniversityNote/PhyNote/9/903.png  used on input line 117.
-(pdftex.def)             Requested size: 369.89827pt x 199.17186pt.
+(pdftex.def)             Requested size: 369.89827pt x 227.62561pt.
 
 Overfull \hbox (45.96982pt too wide) in paragraph at lines 115--118
 [][]
@@ -447,17 +447,17 @@ Overfull \hbox (24.89827pt too wide) in paragraph at lines 115--118
 File: D:/UniversityNote/PhyNote/9/904.png Graphic file (type png)
 <use D:/UniversityNote/PhyNote/9/904.png>
 Package pdftex.def Info: D:/UniversityNote/PhyNote/9/904.png  used on input line 143.
-(pdftex.def)             Requested size: 369.88031pt x 199.17265pt.
+(pdftex.def)             Requested size: 369.88031pt x 227.63055pt.
 <D:/UniversityNote/PhyNote/9/905.png, id=164, 552.26324pt x 305.943pt>
 File: D:/UniversityNote/PhyNote/9/905.png Graphic file (type png)
 <use D:/UniversityNote/PhyNote/9/905.png>
 Package pdftex.def Info: D:/UniversityNote/PhyNote/9/905.png  used on input line 144.
-(pdftex.def)             Requested size: 369.88805pt x 199.16869pt.
+(pdftex.def)             Requested size: 369.88805pt x 227.62202pt.
 <D:/UniversityNote/PhyNote/9/906.png, id=165, 549.85425pt x 305.34074pt>
 File: D:/UniversityNote/PhyNote/9/906.png Graphic file (type png)
 <use D:/UniversityNote/PhyNote/9/906.png>
 Package pdftex.def Info: D:/UniversityNote/PhyNote/9/906.png  used on input line 145.
-(pdftex.def)             Requested size: 369.88547pt x 199.17265pt.
+(pdftex.def)             Requested size: 369.88547pt x 227.63055pt.
 
 Overfull \hbox (45.95905pt too wide) in paragraph at lines 143--146
 [][]
@@ -473,25 +473,36 @@ Overfull \hbox (24.88547pt too wide) in paragraph at lines 143--146
 [] 
  []
 
-[5 <d:/UniversityNote/PhyNote/9/903.png (PNG copy)>] [6 <d:/UniversityNote/PhyNote/9/904.png (PNG copy)> <d:/UniversityNote/PhyNote/9/905.png (PNG copy)>] [7 <d:/UniversityNote/PhyNote/9/906.png (PNG copy)>] (d:/UniversityNote/PhyNote/9/9.aux)
+[5 <d:/UniversityNote/PhyNote/9/903.png (PNG copy)>] [6 <d:/UniversityNote/PhyNote/9/904.png (PNG copy)> <d:/UniversityNote/PhyNote/9/905.png (PNG copy)>]
+<D:/UniversityNote/PhyNote/9/907.png, id=183, 548.0475pt x 312.56775pt>
+File: D:/UniversityNote/PhyNote/9/907.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/9/907.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/9/907.png  used on input line 167.
+(pdftex.def)             Requested size: 369.891pt x 227.62407pt.
+
+Overfull \hbox (45.96974pt too wide) in paragraph at lines 167--168
+[][] 
+ []
+
+[7 <d:/UniversityNote/PhyNote/9/906.png (PNG copy)>] [8 <d:/UniversityNote/PhyNote/9/907.png (PNG copy)>] (d:/UniversityNote/PhyNote/9/9.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 6450 strings out of 480608
- 111344 string characters out of 5903608
+ 6463 strings out of 480608
+ 111643 string characters out of 5903608
  343990 words of memory out of 5000000
- 22003 multiletter control sequences out of 15000+600000
+ 22015 multiletter control sequences out of 15000+600000
  562857 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,5n,52p,517b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on d:/UniversityNote/PhyNote/9/9.pdf (7 pages, 1242312 bytes).
+Output written on d:/UniversityNote/PhyNote/9/9.pdf (8 pages, 1467821 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
+ 484 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

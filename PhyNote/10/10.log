@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.4.17)  24 MAY 2020 19:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.4.17)  26 MAY 2020 21:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -456,25 +456,76 @@ Overfull \hbox (24.89343pt too wide) in paragraph at lines 92--97
 [] 
  []
 
-[2] [3 <d:/UniversityNote/PhyNote/10/1001.png (PNG copy)> <d:/UniversityNote/PhyNote/10/1002.png (PNG copy)>] [4 <d:/UniversityNote/PhyNote/10/1003.png (PNG copy)> <d:/UniversityNote/PhyNote/10/1004.png (PNG copy)>] [5 <d:/UniversityNote/PhyNote/10/1005.png (PNG copy)>] [6] (d:/UniversityNote/PhyNote/10/10.aux)
+[2] [3 <d:/UniversityNote/PhyNote/10/1001.png (PNG copy)> <d:/UniversityNote/PhyNote/10/1002.png (PNG copy)>] [4 <d:/UniversityNote/PhyNote/10/1003.png (PNG copy)> <d:/UniversityNote/PhyNote/10/1004.png (PNG copy)>] [5 <d:/UniversityNote/PhyNote/10/1005.png (PNG copy)>] [6] [7] [8]
+<D:/UniversityNote/PhyNote/10/1006.png, id=204, 546.24075pt x 307.74976pt>
+File: D:/UniversityNote/PhyNote/10/1006.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/10/1006.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/10/1006.png  used on input line 249.
+(pdftex.def)             Requested size: 369.89684pt x 227.63263pt.
+<D:/UniversityNote/PhyNote/10/1007.png, id=205, 549.252pt x 305.34074pt>
+File: D:/UniversityNote/PhyNote/10/1007.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/10/1007.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/10/1007.png  used on input line 250.
+(pdftex.def)             Requested size: 369.88263pt x 227.63055pt.
+<D:/UniversityNote/PhyNote/10/1008.png, id=206, 550.4565pt x 310.15875pt>
+File: D:/UniversityNote/PhyNote/10/1008.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/10/1008.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/10/1008.png  used on input line 251.
+(pdftex.def)             Requested size: 369.89584pt x 227.62082pt.
+<D:/UniversityNote/PhyNote/10/1009.png, id=207, 549.85425pt x 308.352pt>
+File: D:/UniversityNote/PhyNote/10/1009.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/10/1009.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/10/1009.png  used on input line 252.
+(pdftex.def)             Requested size: 369.88547pt x 227.6264pt.
+<D:/UniversityNote/PhyNote/10/1010.png, id=208, 553.46774pt x 310.761pt>
+File: D:/UniversityNote/PhyNote/10/1010.png Graphic file (type png)
+<use D:/UniversityNote/PhyNote/10/1010.png>
+Package pdftex.def Info: D:/UniversityNote/PhyNote/10/1010.png  used on input line 253.
+(pdftex.def)             Requested size: 369.90092pt x 227.62656pt.
+
+Overfull \hbox (45.97557pt too wide) in paragraph at lines 249--254
+[][]
+ []
+
+
+Overfull \hbox (24.88263pt too wide) in paragraph at lines 249--254
+[]
+ []
+
+
+Overfull \hbox (24.89584pt too wide) in paragraph at lines 249--254
+[]
+ []
+
+
+Overfull \hbox (24.88547pt too wide) in paragraph at lines 249--254
+[]
+ []
+
+
+Overfull \hbox (24.90092pt too wide) in paragraph at lines 249--254
+[] 
+ []
+
+[9 <d:/UniversityNote/PhyNote/10/1006.png (PNG copy)> <d:/UniversityNote/PhyNote/10/1007.png (PNG copy)>] [10 <d:/UniversityNote/PhyNote/10/1008.png (PNG copy)> <d:/UniversityNote/PhyNote/10/1009.png (PNG copy)>] [11 <d:/UniversityNote/PhyNote/10/1010.png (PNG copy)>] (d:/UniversityNote/PhyNote/10/10.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 6480 strings out of 480608
- 111532 string characters out of 5903608
+ 6787 strings out of 480608
+ 116303 string characters out of 5903608
  346993 words of memory out of 5000000
- 22039 multiletter control sequences out of 15000+600000
- 560119 words of font info for 127 fonts, out of 8000000 for 9000
+ 22316 multiletter control sequences out of 15000+600000
+ 563089 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,5n,52p,519b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on d:/UniversityNote/PhyNote/10/10.pdf (6 pages, 1034885 bytes).
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/program/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+Output written on d:/UniversityNote/PhyNote/10/10.pdf (11 pages, 1861838 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
+ 554 PDF objects out of 1000 (max. 8388607)
+ 350 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 
